@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&family=Sofia+Sans+Extra+Condensed:wght@100;400;500&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-image: url(../img/patron.jpg);
+    background-attachment: fixed;
+}
+h1 {
+    color: black;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 30px;
+}
+
+p {
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+nav {
+    background-color: rgba(44, 43, 43, 0.5);
+    padding: 8px 20px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+}
+
+nav ul li a:hover {
+    color:white;
+}
+
+form {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+form label {
+    width: 100%;
+    display: block;
+}
+
+footer p {
+    margin-left: 10px;
+}
+
+    /* CLASES DEFINIDAS */
+
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.text-justify {
+    text-align: justify;
+}
+
+.text-left {
+    text-align: left;
+}
+.text-black {
+    color: black;
+    font-weight: bolder;
+}
+
+.text-pr {
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.boxServices {
+    background-color: rgba(64, 40, 243, 0.25);
+    width: 80%;
+    margin-left: 150px;
+    margin-top: 20px;
+    height: auto;
+    border: solid black 2px;
+    margin-bottom: 8px;
+}
+
+.boxContacto {
+    background-color: rgba(64, 40, 243, 0.25);
+    margin-left: 150px;
+    height: auto;
+    border: solid black 2px;
+    margin-bottom: 4px;
+    padding-bottom: 5px;
+}
+
+.imgHeader {
+    width: 100%;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px 0px;
+    background-color: rgba(44, 43, 43, 0.5);
+
+}
+
+footer a {
+    text-decoration: none;
+}
+.textContacto {
+    margin-bottom: 10px;
+}
+
+.botones {
+    font-size: 1.25em;
+    color: white;
+    font-weight: bold;
+    background-color: blueviolet;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.botones:hover {
+    background-color: rgb(73, 23, 119);
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+  #header { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-position: center center;
+}
+
+.container {
+    background-color: lightcyan;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+}
+
+.boxProductos {
+    width: auto;
+    height: auto;
+    background-color: gainsboro;
+    border: 3px solid black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.boxProductos:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.imgProductosSize {
+    width: 250px;
+    height: 300px;
+}
+
+.sectionProductos {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.sectionProductos figcaption {
+    background-color: lightcoral
+}
+
+.sectionProductos p {
+    background-color: lightcoral;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.sectionProductos figure img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.botonFlexProd {
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.containerGod {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: 
+    "nav nav nav"
+    "header header header"
+    "texto productos iconos"
+    "footer footer footer"
+    ;
+}
+
+.containerGodContacto {
+
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: 
+    "navContacto navContacto"
+    "headerContacto headerContacto"
+    "formularioContacto ubicacion"
+    "footerContacto footerContacto";
+}
+#navContacto {
+    grid-area: navContacto;
+}
+#headerContacto {
+    grid-area: headerContacto;
+}
+#ubicacion {
+    grid-area: ubicacion;
+}
+#formContactoId {
+    grid-area: formularioContacto;
+}
+#footerContacto {
+    grid-area: footerContacto;
+}
+
+
+#navProd {
+    grid-area: nav;
+}
+#headerProd {
+    grid-area: header;
+}
+#idProductos {
+    grid-area: productos;
+}
+#aside {
+    grid-area: iconos;
+}
+#footer {
+    grid-area: footer;
+}
+#textoFantasia {
+    grid-area: texto;
+    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.imgIconos {
+    width: 150px;
+    height: 150px;
+}
+
+aside img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: all 1s;
+}
+
+@media (min-width:280px) and (max-width:480px) {
+    .containerGod {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 30vh 10vh auto auto 15vh;
+        grid-template-areas: 
+        "nav"
+        "texto"
+        "iconos"
+        "productos"
+        "footer";
+    }
+    #navProd {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .imgHeader {
+        display: none;
+    }
+
+    #aside {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .containerGodUs {
+        display: grid;
+        grid-template-columns: 100vw;
+        grid-template-rows: 30vh auto auto 20vh;
+        grid-template-areas: 
+        "navUs"
+        "usText"
+        "videosUs"
+        "footerUs";
+    }
+
+    #navUs{
+        display: flex;
+        flex-direction: column;
+    }
+    #navUs {
+        grid-area: navUs;
+    }
+    #usText {
+        grid-area: usText;
+    }
+    #videosUs {
+        grid-area: videosUs;
+    }
+    #footerUs {
+        grid-area: footerUs;
+    }
+    .comohacertuspanes {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width:481px) and (max-width:1024px) {
+
+    .containerGod {
+        display: grid;
+        grid-template-columns: 25vh auto;
+        grid-template-rows: 30vh auto auto auto 20vh;
+        grid-template-areas: 
+        "nav nav"
+        "header header"
+        "texto iconos"
+        "productos productos"
+        "footer footer";
+
+}
+
+#textoFantasia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 30px;
+}
+
+#aside {
+    display: grid;
+    justify-content: end;
+    margin-right: 20px;
+    
+}
+
+}
+
+.contactoFlex {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.comohacertuspanes {
+display: flex;
+justify-content: space-evenly;   
+margin: 10px;
+}
+
+.cajadepanes{
+    border: 10px; 
+    padding: 20px; 
+    margin: 10px; 
+    background-color: rgb(158, 155, 155);
+    border:5px solid peachpuff;
+    border-style:groove;
+}
+
+section.comohacertuspanes iframe:hover { 
+     transform: scale(1.1);
+    cursor: pointer;
+    transition: all 1s;}
+
+    h1{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   margin: 10px;
+   }
+
+
+   
+.cajacomprar {
+   border: 5px;
+   padding: 10px;
+   margin:auto;
+   background-color: gray;
+   border-style: dotted;
+   height: auto;
+   width: auto;
+   
+   }
+   .comocomprar {
+    display: flex;
+    justify-content:flex-start ;
+   }
+
+.imapan{
+    width: 80%;
+}
+
+
+
