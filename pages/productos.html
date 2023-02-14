@@ -5,101 +5,121 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productos - Dari-Fran Panaderías</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+     rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
-    
     <link rel="stylesheet" href="../css/style.css">
     
 </head>
-<body>
-    <div class="containerGod">
-    <nav id="navProd">
-        <a href="../index.html">
-            <img src="../img/Logofinalmb.png" alt="logo">
-        </a>
-        <ul>
-            <li> <a href="#">Productos</a></li>
-            <li> <a href="nosotros.html">Nosotros</a> </li>
-            <li> <a href="contacto.html">Contacto</a> </li>
-            <li> <a href="comprar.html">¿Cómo comprar?</a> </li>
-        </ul>
-    </nav>
 
-    <header id="headerProd">
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">
+        <img id="logoIzq" src="../img/Logofinalmb.png" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="comprar.html">¿Cómo comprar?</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <header>
         <img class= "imgHeader" src="../img/head3r.jpg" alt="Servicios de panificación">
     </header>
 
-    <main id="idProductos">
-        <h1 class="text-center text-black">¡SELECCIONÁ TUS PRODUCTOS Y RECIBÍLOS EN TU CASA!</h1>
-        <section class="sectionProductos">
-            
-            <div class="boxProductos">
-                 <figure>
-                    <img class="imgProductosSize" src="../img/whitepan.jpg" alt="Pan blanco">
-                    <figcaption class="text-pr text-center">Pan clásico blanco</figcaption>
-                    <p class="text-center text-black">$699.00</p>
-                </figure> 
-            </div>
-           
-            <div class="boxProductos">
-                <figure>
-                    <img class="imgProductosSize" src="../img/blackpan.jpg" alt="Pan negro">
-                    <figcaption class="text-pr text-center">Pan clásico negro</figcaption>
-                    <p class="text-center text-black">$699.00</p>
-                </figure>
-            </div>
-            <div class="boxProductos">
-                <figure>
-                    <img class="imgProductosSize" src="../img/pandu.jpg" alt="Pan dulce">
-                    <figcaption class="text-pr text-center">Pan dulce</figcaption>
-                    <p class="text-center text-black">$1199.00</p>
-                </figure>
-            </div>
-            <div class="boxProductos">
-                <figure>
-                    <img class="imgProductosSize" src="../img/finasmasas.jpg" alt="Masas finas">
-                    <figcaption class="text-pr text-center">Masas finas x/KG</figcaption>
-                    <p class="text-center text-black">$1799.00</p>
-                </figure>
-            </div>
+    <main>
+   
+        <h2 class="text-center">Nuestras especialidades</h2>
 
+    <div id="bodyProductos" class="row">
 
+        <article class="col-sm-12 col-md-6 ob1">
+            <img class="imgArticulos" src="../img/Screenshot_5.jpg" alt="">
+        </article>
 
+        <article class="col-sm-12 col-md-6 articulos ob2">
+            <h1 class="text-center">PANADERÍA</h1>
+            <h2 class="text-center">Panes, bizcochos, galletas y pizzas</h2>
+        </article>
+        <article class="col-sm-12 col-md-6 articulos ob4">
+            <h1 class="text-center">CONFITERÍA</h1>
+            <h2 class="text-center">Gran variedad de facturas y sándwiches de miga</h2>
+        </article>
+        <article class="col-sm-12 col-md-6 ob3">
+            <img class="imgArticulos" src="../img/Screenshot_1.jpg" alt="">
+        </article>
+        <article class="col-sm-12 col-md-6 ob5">
+            <img class="imgArticulos" src="../img/Screenshot_2.jpg" alt="">
+        </article>
+        <article class="col-sm-12 col-md-6 articulos ob6">
+            <h1 class="text-center">PASTELERÍA DULCE</h1>
+            <h2 class="text-center">Postres, tartas, tortas, masas finas, masas secas, budines, roscas, merengues, mini-postres.</h2>
+        </article>
         
-
-        </section>
-
-        <div class="botonFlexProd">
-            <input class = "botones" type="submit" value="Comprar">
-        </div>
-         
-        
+        <article class="col-sm-12 col-md-6 articulos ob8">
+            <h1 class="text-center">PASTELERÍA SALADA</h1>
+            <h2 class="text-center">Bocaditos salados, pancitos, locatellis, sacramentos, empanadas, chips, brochets.</h2>
+        </article>
+        <article class="col-sm-12 col-md-6 ob7">
+            <img class="imgArticulos" src="../img/Screenshot_3.jpg" alt="">
+        </article>
+        <article class="col-sm-12 col-md-6 ob9">
+            <img class="imgArticulos" src="../img/Screenshot_4.jpg" alt="">
+        </article>
+        <article class="col-sm-12 col-md-6 articulos ob10">
+            <h1 class="text-center">BOMBONERÍA</h1>
+            <h2 class="text-center">Deliciosos bombones de chocolate artesanal, semiamargo, blanco y leche, rellenos con dulce de leche, fruta, cremas, licores y especias.</h2>
+        </article>
+    
     </main>
 
-    <div id="textoFantasia">
-
-        <p class="text-center text-black"> consectetur, adipisicing elit. Quia qui eveniet non sequi bea consectetur, adipisicing elit. Quia qui eveniet non sequi bea consectetur, adipisicing elit. Quia qui eveniet non sequi bea</p>
-
-
-    </div>
-
-    <aside id="aside" class="asideIn">
-        <div><img class="imgIconos" src="../img/carro.png" alt=""></div> 
-        <div> <img class="imgIconos" src="../img/card.png" alt=""></div>
-        <div> <img class="imgIconos" src="../img/bag.png" alt=""></div>
-        <div><img class="imgIconos" src="../img/pc.png" alt=""></div> 
-     </aside>
-
-    <footer id="footer" class="footer">
+    <footer id="footerContacto" class="footer">
+        <div class="dondeEstamos">
+        <h3>DONDE ESTAMOS</h3>
+                <article>
+                    <!--map Google-->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d408.59199001837766!2d-60.68759827462065!3d-31.632110788024164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x62fdffcd188a52ce!2sDarifran%20Panaderia%20Factureria%20Confiteria!5e0!3m2!1ses!2sar!4v1673134430878!5m2!1ses!2sar" width="350" height="280" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </article>
+        </div>
+        <div class="seguinos">
         <p class="text-black">Seguinos en nuestras redes sociales</p>
         <a href="https://www.facebook.com/coderhouse" target = "_blank">
-            <img src="../img/facebook.png" alt="Link a Facebook">
+            <img class="sizeRedes" src="../img/facebook.svg" alt="Link a Facebook">
         </a>
         <a href="https://www.facebook.com/coderhouse" target = "_blank">
-            <img src="../img/twitter.png" alt="Link a Twitter">
+            <img class="sizeRedes" src="../img/twitter.svg" alt="Link a Twitter">
          </a>
+        </div>
+
+        <div class="divContactoFooter">
+            <p class="text-black">CONTACTO</p>
+            <p>📱 +5493425654951</p>
+            <p>🚩 Av. Corrientes 871</p>
+            <p>✉ darifran@panaderias.com</p>
+            <p>🌐www.darifran.com.ar</p>
+        </div>
     </footer>
+    
 
-    </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
