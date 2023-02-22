@@ -153,6 +153,7 @@ footer p {
     margin-bottom: 4px;
     padding-bottom: 5px;
     margin-top: 20px;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
     
 }
 
@@ -244,6 +245,7 @@ footer a {
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
 }
 
 .boxProductos:hover {
@@ -266,11 +268,11 @@ footer a {
 }
 
 .sectionProductos figcaption {
-    background-color: lightcoral
+    background-color: grey;
 }
 
 .sectionProductos p {
-    background-color: lightcoral;
+    background-color: grey;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
