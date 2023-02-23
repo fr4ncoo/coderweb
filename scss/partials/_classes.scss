@@ -1,0 +1,252 @@
+.bg-colornav {
+    background-color: brown;
+}
+.fondo-art {
+    background-color: antiquewhite;
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.text-justify {
+    text-align: justify;
+}
+
+.text-left {
+    text-align: left;
+}
+.text-black {
+    color: black;
+    font-weight: bolder;
+}
+
+.text-pr {
+    color: blueviolet;
+    font-weight: bold;
+}
+.text-nosotros {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.boxServices {
+    background-color: red;
+    width: 80%;
+    margin-left: 150px;
+    margin-top: 20px;
+    height: auto;
+    border: solid black 2px;
+    margin-bottom: 8px;
+}
+
+.boxContacto {
+    background-color: rgb(245, 245 , 245);
+    height: auto;
+    border: solid black 2px;
+    margin-bottom: 4px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+    
+}
+
+.introServicios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.cajitaIntro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconosIntro {
+    width: 200px;
+    height: 200px;
+}
+.centerContact {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.imgHeader {
+    width: 100%;
+}
+
+
+
+
+
+.textContacto {
+    margin-bottom: 10px;
+}
+
+.botones {
+    font-size: 1.25em;
+    color: white;
+    font-weight: bold;
+    background-color: blueviolet;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.imgArticulos {
+    width: 100%;
+}
+
+.botones:hover {
+    background-color: rgb(73, 23, 119);
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+  #header { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-position: center center;
+}
+
+.container {
+    background-color: lightcyan;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+}
+
+.boxProductos {
+    width: auto;
+    height: auto;
+    background-color: gainsboro;
+    border: 3px solid black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
+}
+
+.boxProductos:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.imgProductosSize {
+    width: 250px;
+    height: 300px;
+}
+
+.sectionProductos {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.sectionProductos figcaption {
+    background-color: grey;
+}
+
+.sectionProductos p {
+    background-color: grey;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.sectionProductos figure img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.botonFlexProd {
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.articulos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+
+
+
+.imgIconos {
+width: 150px;
+height: 150px;
+}
+
+aside img:hover {
+transform: scale(1.2);
+cursor: pointer;
+transition: all 1s;
+}
+
+
+.contactoFlex {
+display: flex;
+flex-direction: row-reverse;
+flex-wrap: nowrap;
+justify-content: space-between;
+}
+
+.comohacertuspanes {
+display: flex;
+justify-content: space-evenly;   
+margin: 10px;
+}
+
+.cajadepanes{
+border: 10px; 
+padding: 20px; 
+margin: 10px; 
+background-color: rgb(158, 155, 155);
+border:5px solid peachpuff;
+border-style:groove;
+}
+
+section.comohacertuspanes iframe:hover { 
+ transform: scale(1.1);
+cursor: pointer;
+transition: all 1s;}
+
+
+
+
+
+.cajacomprar {
+border: 5px;
+padding: 10px;
+margin:auto;
+background-color: gray;
+border-style: dotted;
+height: auto;
+width: auto;
+
+}
+.comocomprar {
+display: flex;
+justify-content:flex-start ;
+}
+
+.imapan{
+width: 80%;
+}

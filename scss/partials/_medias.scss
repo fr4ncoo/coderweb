@@ -1,0 +1,240 @@
+.containerGod {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: 
+    "nav nav nav"
+    "header header header"
+    "texto productos iconos"
+    "footer footer footer"
+    ;
+}
+
+
+#navContacto {
+    grid-area: navContacto;
+}
+#headerContacto {
+    grid-area: headerContacto;
+}
+#ubicacion {
+    grid-area: ubicacion;
+}
+#formContactoId {
+    grid-area: formularioContacto;
+}
+#footerContacto {
+    grid-area: footerContacto;
+}
+
+
+#navProd {
+    grid-area: nav;
+}
+#headerProd {
+    grid-area: header;
+}
+#idProductos {
+    grid-area: productos;
+}
+#aside {
+    grid-area: iconos;
+}
+#footer {
+    grid-area: footer;
+}
+#textoFantasia {
+    grid-area: texto;
+    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+
+@media (min-width:280px) and (max-width:480px) {
+    .containerGod {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 30vh 10vh auto auto 15vh;
+        grid-template-areas: 
+        "nav"
+        "texto"
+        "iconos"
+        "productos"
+        "footer";
+    }
+
+    .introServicios {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #footerContacto {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dondeEstamos {
+        display: none;
+    }
+    #navProd {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .imgHeader {
+        display: none;
+    }
+
+    #aside {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .containerGodUs {
+        display: grid;
+        grid-template-columns: 100vw;
+        grid-template-rows: 30vh auto auto 20vh;
+        grid-template-areas: 
+        "navUs"
+        "usText"
+        "videosUs"
+        "footerUs";
+    }
+
+    #navUs{
+        display: flex;
+        flex-direction: column;
+    }
+    #navUs {
+        grid-area: navUs;
+    }
+    #usText {
+        grid-area: usText;
+    }
+    #videosUs {
+        grid-area: videosUs;
+    }
+    #footerUs {
+        grid-area: footerUs;
+    }
+    .comohacertuspanes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ob1 {
+        order: 1;
+    }
+    .ob2 {
+        order: 2;
+    }
+    .ob3 {
+        order: 3;
+    }
+    .ob4 {
+        order: 4;
+    }
+    .ob5 {
+        order: 5;
+    }
+    .ob6 {
+        order: 6;
+    }
+    .ob7 {
+        order: 7;
+    }
+    .ob8 {
+        order: 8;
+    }
+    .ob9 {
+        order: 9;
+    }
+    .ob10 {
+        order: 10;
+    }
+
+}
+
+@media (min-width:481px) and (max-width:1024px) {
+
+    .containerGod {
+        display: grid;
+        grid-template-columns: 25vh auto;
+        grid-template-rows: 30vh auto auto auto 20vh;
+        grid-template-areas: 
+        "nav nav"
+        "header header"
+        "texto iconos"
+        "productos productos"
+        "footer footer";
+
+}
+
+.introServicios {
+    display: flex;
+    flex-direction: column;
+}
+
+#footerContacto {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#textoFantasia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 30px;
+}
+
+#aside {
+    display: grid;
+    justify-content: end;
+    margin-right: 20px;
+}
+    .ob1 {
+        order: 1;
+    }
+    .ob2 {
+        order: 2;
+    }
+    .ob3 {
+        order: 3;
+    }
+    .ob4 {
+        order: 4;
+    }
+    .ob5 {
+        order: 5;
+    }
+    .ob6 {
+        order: 6;
+    }
+    .ob7 {
+        order: 7;
+    }
+    .ob8 {
+        order: 8;
+    }
+    .ob9 {
+        order: 9;
+    }
+    .ob10 {
+        order: 10;
+    }
+}

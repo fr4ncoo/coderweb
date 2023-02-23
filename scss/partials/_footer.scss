@@ -1,0 +1,33 @@
+.footer {
+    text-align: center;
+    padding: 10px 0px;
+    background-color: rgba(44, 43, 43, 0.5);
+
+}
+footer p {
+    margin-left: 10px;
+     
+}
+footer div.seguinos a{
+    text-decoration: none;
+}
+.divContactoFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#footerContacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.seguinos {
+    margin-top: 60px;
+}
+
+.sizeRedes {
+    width: 40px;
+    height: 40px;
+}
