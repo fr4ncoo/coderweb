@@ -133,6 +133,10 @@
         display: flex;
         flex-direction: column;
     }
+    .cajadepanes {
+        display: flex;
+        flex-direction: column;
+    }
 
     .ob1 {
         order: 1;
@@ -201,7 +205,18 @@
     flex-wrap: wrap;
     margin-right: 30px;
 }
-
+#videosUs {
+    display: flex;
+    flex-direction: column;
+}
+.comohacertuspanes {
+    display: flex;
+    flex-direction: column;
+}
+.cajadepanes {
+    display: flex;
+    flex-direction: column;
+}
 #aside {
     display: grid;
     justify-content: end;
