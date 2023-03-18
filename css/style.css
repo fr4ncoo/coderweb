@@ -597,6 +597,11 @@ p {
 
 body {
   background-color: beige;
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
 }
 
 /*# sourceMappingURL=style.css.map */
